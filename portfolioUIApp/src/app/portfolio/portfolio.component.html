@@ -1,0 +1,18 @@
+<div>
+    <h1>your portfolio's </h1>
+<div id="refreshAfterTenMinutesDiv">
+    <ng-container *ngFor = "let portfolio of portFolios">
+        <h2>Asset Id: {{portfolio.id}}</h2>
+        <div>
+        <p>Asset name: {{portfolio.asset.name}}</p>
+        <p>Asset price: {{portfolio.asset.price}}</p>
+        <p>Number of Assets: {{portfolio.noOfAssets}}</p>
+        <p>Total Price: {{portfolio.totalPrice}}</p>
+        
+        </div>
+        
+      </ng-container>
+
+</div>
+
+    </div>
